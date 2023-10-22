@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+nameservice = "2HuooUmu5F4aSFtCFGcyjRnY2BAir91WY84RrqPXEyNW"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/prath/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
